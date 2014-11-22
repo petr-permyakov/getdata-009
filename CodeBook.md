@@ -38,14 +38,14 @@ Labels:
 ============
 Lables correcponding activities. It is tange from 1- to 6.
 
-
+```
 1            WALKING
 2   WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
 4            SITTING
 5           STANDING
 6             LAYING
-
+```
 Features:
 ==========================
 
@@ -60,7 +60,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
-
+```
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
@@ -78,9 +78,9 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
-
+```
 The set of variables that were estimated from these signals are: 
-
+```
 mean(): Mean value
 std(): Standard deviation
 mad(): Median absolute deviation 
@@ -98,18 +98,18 @@ skewness(): skewness of the frequency domain signal
 kurtosis(): kurtosis of the frequency domain signal 
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
-
+```
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-
+```
 gravityMean
 tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-
+```
 The complete list of variables of each feature vector is available in 'features.txt'
 
-
+```
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
 3 tBodyAcc-mean()-Z
@@ -671,7 +671,7 @@ The complete list of variables of each feature vector is available in 'features.
 559 angle(X,gravityMean)
 560 angle(Y,gravityMean)
 561 angle(Z,gravityMean)
-
+```
 
 
 Data transformsations:

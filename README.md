@@ -81,7 +81,7 @@ fBodyGyroMag
 fBodyGyroJerkMag
 ````
 The set of variables that were estimated from these signals are: 
-
+```
 mean(): Mean value
 std(): Standard deviation
 mad(): Median absolute deviation 
@@ -99,25 +99,30 @@ skewness(): skewness of the frequency domain signal
 kurtosis(): kurtosis of the frequency domain signal 
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
-
+```
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-
+```
 gravityMean
 tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-
+```
 The complete list of variables of each feature vector is available in 'features.txt'
 
 
 Data cleaning and transformation:
 ==================
 To achieve projects goals script called run_analysis.R that does the following: 
+
 1.Merges the training and the test sets to create one data set.
+
 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
-3.Uses descriptive activity names to name the activities in the data set
+
+3.Uses descriptive activity names to name the activities in the data set.
+
 4.Appropriately labels the data set with descriptive variable names. 
+
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Result of script work put in 'tidydataset.txt' file.
