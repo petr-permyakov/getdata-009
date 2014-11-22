@@ -36,6 +36,8 @@ Each row identifies the subject who performed the activity for each window sampl
 
 Labels:
 ============
+Lables correcponding activities. It is tange from 1- to 6.
+
 
 1            WALKING
 2   WALKING_UPSTAIRS
